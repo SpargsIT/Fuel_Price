@@ -1,0 +1,1515 @@
+{
+  "ok": true,
+  "generatedAt": "2026-08-17T10:43:00+02:00",
+  "mode": "verified-packaged-fallback",
+  "cacheSeconds": 1800,
+  "data": {
+    "snapshotDate": "2026-08-17T10:43:00+02:00",
+    "officialCefDate": "2026-08-13",
+    "reviewCloseDate": "2026-08-27",
+    "nextAdjustmentDate": "2026-09-02",
+    "region": "Coastal South Africa (Zone 1A benchmark)",
+    "market": {
+      "brent": 88.72,
+      "brentDate": "17 Aug 2026 early trade",
+      "usdZar": 16.1606,
+      "usdZarDate": "17 Aug 2026 market snapshot",
+      "cefUsdZar": 16.1606,
+      "oilPressure": 76,
+      "fxPressure": 34,
+      "petrolProductPressure": 73,
+      "dieselProductPressure": 96,
+      "supplyRisk": 88,
+      "ceasefireRelief": 30,
+      "riskLevel": "High"
+    },
+    "prices": {
+      "p95": 24.71,
+      "p93": 24.55,
+      "d500": 25.3001,
+      "d50": 25.5341,
+      "paraffin": 17.70698,
+      "lpgCoastal": 33.44,
+      "lpgInland": 36.7,
+      "lpgSaldanha": 35.81
+    },
+    "lastOfficialChange": {
+      "p95": -0.52,
+      "p93": -0.52,
+      "d500": 1.3844,
+      "d50": 1.2344,
+      "paraffin": 1.52,
+      "lpgCoastal": -4.42
+    },
+    "slate": {
+      "endMayBalanceBn": -7.418,
+      "julyLevy": 0.6138,
+      "juneLevyApprox": 1.1394,
+      "impliedSixMonthLitresBn": 11.69,
+      "assumedJuneVolumeBn": 1.95,
+      "assumedPetrolShare": 0.42,
+      "junePetrolOverRecovery": 3.0724,
+      "juneDieselOverRecovery": 5.1222,
+      "estimatedEndJuneBalanceBn": -7.418,
+      "estimatedAugustLevy": 0.6138,
+      "estimatedAugustLevyLow": 0.6138,
+      "estimatedAugustLevyHigh": 0.6138,
+      "estimatedLevyChange": -0.5256,
+      "confidence": "Official August Slate Levy published",
+      "note": "The official August 2026 Slate Levy is 61.38 c/l, down 52.56 c/l from 113.94 c/l. The live September headline remains anchored to the CEF daily accumulated over/(under)-recovery and is not manually adjusted again for the slate."
+    },
+    "forecast": [
+      {
+        "key": "p95",
+        "name": "Petrol 95 ULP",
+        "type": "Regulated retail",
+        "cef": 0.73871,
+        "daily": 1.08551,
+        "bfpModel": 0.73871,
+        "bfpLow": 0.2587,
+        "bfpHigh": 1.2187,
+        "allIn": 0.73871,
+        "allLow": 0.2587,
+        "allHigh": 1.2187,
+        "stability": 58,
+        "reason": "Official CEF Daily Basic Fuel Price data through 13 August 2026 shows an accumulated under-recovery equivalent to an indicative R0.74/l increase for Petrol 95 ULP. This is a live September indication, not the final DMPR announcement.",
+        "topAuto": 0.73871,
+        "topAutoDate": "13 Aug 2026 · official CEF daily report"
+      },
+      {
+        "key": "p93",
+        "name": "Petrol 93 ULP",
+        "type": "Regulated retail",
+        "cef": 0.62883,
+        "daily": 0.97833,
+        "bfpModel": 0.62883,
+        "bfpLow": 0.1488,
+        "bfpHigh": 1.1088,
+        "allIn": 0.62883,
+        "allLow": 0.1488,
+        "allHigh": 1.1088,
+        "stability": 60,
+        "reason": "Official CEF Daily Basic Fuel Price data through 13 August 2026 shows an accumulated under-recovery equivalent to an indicative R0.63/l increase for Petrol 93 ULP. This is a live September indication, not the final DMPR announcement.",
+        "topAuto": 0.62883,
+        "topAutoDate": "13 Aug 2026 · official CEF daily report"
+      },
+      {
+        "key": "d500",
+        "name": "Diesel 500ppm",
+        "type": "Wholesale benchmark",
+        "cef": 2.72505,
+        "daily": 2.74313,
+        "bfpModel": 2.72505,
+        "bfpLow": 1.9051,
+        "bfpHigh": 3.5451,
+        "allIn": 2.72505,
+        "allLow": 1.9051,
+        "allHigh": 3.5451,
+        "stability": 42,
+        "reason": "Official CEF Daily Basic Fuel Price data through 13 August 2026 shows an accumulated under-recovery equivalent to an indicative R2.73/l increase for Diesel 500ppm. This is a live September indication, not the final DMPR announcement.",
+        "topAuto": 2.72505,
+        "topAutoDate": "13 Aug 2026 · official CEF daily report"
+      },
+      {
+        "key": "d50",
+        "name": "Diesel 50ppm",
+        "type": "Wholesale benchmark",
+        "cef": 2.88609,
+        "daily": 2.98452,
+        "bfpModel": 2.88609,
+        "bfpLow": 2.0661,
+        "bfpHigh": 3.7061,
+        "allIn": 2.88609,
+        "allLow": 2.0661,
+        "allHigh": 3.7061,
+        "stability": 40,
+        "reason": "Official CEF Daily Basic Fuel Price data through 13 August 2026 shows an accumulated under-recovery equivalent to an indicative R2.89/l increase for Diesel 50ppm. This is a live September indication, not the final DMPR announcement.",
+        "topAuto": 2.88609,
+        "topAutoDate": "13 Aug 2026 · official CEF daily report"
+      },
+      {
+        "key": "paraffin",
+        "name": "Illuminating paraffin",
+        "type": "Wholesale benchmark",
+        "cef": 2.14765,
+        "daily": 2.17912,
+        "bfpModel": 2.14765,
+        "bfpLow": 1.2477,
+        "bfpHigh": 3.0477,
+        "allIn": 2.14765,
+        "allLow": 1.2477,
+        "allHigh": 3.0477,
+        "stability": 42,
+        "reason": "Official CEF Daily Basic Fuel Price data through 13 August 2026 shows an accumulated under-recovery equivalent to an indicative R2.15/l increase for Illuminating paraffin. This is a live September indication, not the final DMPR announcement.",
+        "topAuto": 2.14765,
+        "topAutoDate": "13 Aug 2026 · official CEF daily report"
+      }
+    ],
+    "projectionPath": {
+      "officialEndIndex": 3,
+      "dates": [
+        "5 Aug",
+        "10 Aug",
+        "12 Aug",
+        "13 Aug"
+      ],
+      "series": {
+        "p95": [
+          0.60867,
+          0.58064,
+          0.70018,
+          0.73871
+        ],
+        "p93": [
+          0.49653,
+          0.46978,
+          0.59,
+          0.62883
+        ],
+        "d500": [
+          3.61131,
+          2.73399,
+          2.72304,
+          2.72505
+        ],
+        "d50": [
+          3.70597,
+          2.8662,
+          2.87515,
+          2.88609
+        ],
+        "paraffin": [
+          2.82515,
+          2.13401,
+          2.14415,
+          2.14765
+        ]
+      }
+    },
+    "news": [
+      {
+        "title": "Official CEF 13 August snapshot points to September increases across all liquid fuels",
+        "source": "Central Energy Fund (official daily BFP report)",
+        "date": "13 Aug 2026",
+        "category": "Fuel forecast",
+        "score": 100,
+        "direction": "up",
+        "credibility": "Direct official CEF daily Basic Fuel Price report",
+        "url": "https://cefgroup.co.za/wp-content/uploads/2026/08/Daily-13-08-2026.pdf",
+        "summary": "Average under-recoveries through 13 August imply Petrol 95 +R0.73871/l, Petrol 93 +R0.62883/l, Diesel 500ppm +R2.72505/l, Diesel 50ppm +R2.88609/l and illuminating paraffin +R2.14765/l for September if the review closed at that point."
+      },
+      {
+        "title": "August official adjustment: petrol down 52c, diesel and paraffin sharply higher",
+        "source": "South African Government / DMPR",
+        "date": "3 Aug 2026",
+        "category": "Official fuel price",
+        "score": 100,
+        "direction": "neutral",
+        "credibility": "Official government announcement",
+        "url": "https://www.gov.za/news/media-statements/minister-gwede-mantashe-announces-adjustment-fuel-prices-effective-5-august-0",
+        "summary": "Effective 5 August: both petrol grades -52c/l; diesel 500ppm +R1.3844/l; diesel 50ppm +R1.2344/l; wholesale illuminating paraffin +R1.52/l. The Slate Levy fell to 61.38c/l."
+      },
+      {
+        "title": "August LPG maximum: Zone 1A R33.44/kg; Saudi August CP rises for September benchmark",
+        "source": "Government Gazette / Reuters market reporting",
+        "date": "4 Aug 2026",
+        "category": "LPG",
+        "score": 98,
+        "direction": "neutral",
+        "credibility": "Official South African LPG maximum plus Reuters-sourced Saudi CP reporting",
+        "url": "https://www.gov.za/sites/default/files/gcis_document/202608/55131rg12030gon7669.pdf",
+        "summary": "The official Zone 1A residential LPG maximum is R33.44/kg for 5 August to 1 September. Saudi August CP rose to $620/t propane and $640/t butane, lifting the 60/40 benchmark to $628/t for the next model cycle."
+      },
+      {
+        "title": "Public reporting on the 16 July CEF snapshot showed a less severe diesel outlook",
+        "source": "EWN / Stuff reporting on CEF data",
+        "date": "21 Jul 2026",
+        "category": "Fuel forecast history",
+        "score": 91,
+        "direction": "neutral",
+        "credibility": "Reputable reporting; superseded by the 17 July official CEF PDF",
+        "url": "https://www.ewn.co.za/2026/07/21/august-fuel-price-cuts-may-not-be-as-big-as-first-expected",
+        "summary": "The widely reported 16 July snapshot was Petrol 93 -R1.07/l, Petrol 95 -R1.03/l, Diesel 500ppm +R0.01/l and Diesel 50ppm -R0.24/l. The site now prioritises the newer official 17 July CEF report."
+      },
+      {
+        "title": "Saudi Aramco cuts July propane to $580/t and butane to $600/t",
+        "source": "Reuters market report",
+        "date": "30 Jun 2026",
+        "category": "LPG",
+        "score": 99,
+        "direction": "down",
+        "credibility": "Reuters report based on trader pricing",
+        "url": "https://www.sahmcapital.com/news/content/saudi-aramco-and-sonatrach-cut-lpg-prices-for-july-2026-07-01",
+        "summary": "The 60/40 South African benchmark falls from about $784/t to $588/t. This is the main reason the August LPG model points to a large decrease."
+      },
+      {
+        "title": "South Africa confirms July LPG maximums and Saldanha special price",
+        "source": "South African Government",
+        "date": "30 Jun 2026",
+        "category": "LPG",
+        "score": 97,
+        "direction": "neutral",
+        "credibility": "Official government statement",
+        "url": "https://www.gov.za/news/media-statements/minister-gwede-mantashe-announces-adjustment-fuel-prices-effective-1-july",
+        "summary": "The official July adjustment raised LPG by 16c/kg nationally and 19c/kg in the Western Cape. Saldanha MRP is R40.84/kg."
+      },
+      {
+        "title": "VLGC charter rates surge, limiting how much of the CP cut reaches retail",
+        "source": "Riviera Maritime Media",
+        "date": "6 Jul 2026",
+        "category": "LPG freight",
+        "score": 88,
+        "direction": "up",
+        "credibility": "Specialist shipping publication",
+        "url": "https://www.rivieramm.com/news-content-hub/ballast-vlgc-enters-gulf-on-short-term-fixture-at-sky-high-spot-rates-89286",
+        "summary": "A reported 90-day VLGC fixture near $280,000/day shows that freight is the biggest offsetting risk to the lower Saudi benchmark."
+      },
+      {
+        "title": "Africa LPG growth remains constrained by terminals, storage and rail",
+        "source": "Argus Media",
+        "date": "Jul 2026",
+        "category": "LPG supply",
+        "score": 76,
+        "direction": "up",
+        "credibility": "Specialist commodity-market publication",
+        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2757746-africa-s-lpg-growth-faces-supply-and-logistics-hurdles",
+        "summary": "Import-terminal and inland logistics constraints can keep regional delivered prices firmer than the international benchmark alone suggests."
+      },
+      {
+        "title": "South African LPG pricing uses Saudi CP rather than Petrol 93",
+        "source": "DMPR pricing framework",
+        "date": "Methodology",
+        "category": "LPG formula",
+        "score": 94,
+        "direction": "neutral",
+        "credibility": "Official pricing framework",
+        "url": "https://www.dmpr.gov.za/Portals/0/Energy_Website/files/media/speeches/2023/Remarks-by-Minister-at-the-SADC-INDIA-LPG-Summit.pdf",
+        "summary": "The old Petrol 93 proxy was replaced so the MRGP reflects the actual import cost of LPG."
+      },
+      {
+        "title": "Global LPG supply growth drove steep July benchmark cuts",
+        "source": "IndexBox market report",
+        "date": "Jul 2026",
+        "category": "LPG supply",
+        "score": 82,
+        "direction": "down",
+        "credibility": "Commodity-market analysis",
+        "url": "https://www.indexbox.io/blog/saudi-arabia-and-algeria-cut-lpg-prices-for-july-amid-rising-global-supply/",
+        "summary": "Saudi Arabia and Algeria both reduced July LPG selling prices as global supply improved, supporting a lower August South African import-parity input."
+      },
+      {
+        "title": "Mont Belvieu propane softened into July",
+        "source": "Oil & Gas Storage News",
+        "date": "1 Jul 2026",
+        "category": "LPG market",
+        "score": 58,
+        "direction": "down",
+        "credibility": "Secondary global market guide",
+        "url": "https://oilgasstoragenews.com/lpg-price/",
+        "summary": "A softer US propane benchmark supports the broader view that international LPG supply conditions eased after the June spike."
+      },
+      {
+        "title": "Final August LPG price still depends on the review-period rand and landed costs",
+        "source": "Spargs model assessment",
+        "date": "22 Jul 2026",
+        "category": "LPG forecast",
+        "score": 85,
+        "direction": "neutral",
+        "credibility": "Transparent scenario model",
+        "url": "https://www.dmpr.gov.za/Portals/0/Energy_Website/files/policies/petroleum/Draft-Regulations-in-terms-of-Max-Refiner-Gate-Price-of-LPG.pdf",
+        "summary": "The Saudi CP cut is known, but freight, insurance, storage, stock financing, exchange rate and regulatory rounding determine the final official decrease."
+      },
+      {
+        "title": "Brent settled at $89.22 as Middle East shipping risk stayed elevated",
+        "source": "MarketWatch",
+        "date": "20 Jul 2026",
+        "category": "Crude oil",
+        "score": 94,
+        "direction": "up",
+        "credibility": "Major financial publication",
+        "url": "https://www.marketwatch.com/story/oil-prices-surge-stock-futures-dip-as-fighting-between-u-s-and-iran-intensifies-6fb37c79",
+        "summary": "Brent reached a one-month high. Continued Hormuz and Red Sea risk raises crude, freight and refined-product costs."
+      },
+      {
+        "title": "Refining bottlenecks are pushing fuel products faster than crude",
+        "source": "MarketWatch",
+        "date": "21 Jul 2026",
+        "category": "Refined products",
+        "score": 96,
+        "direction": "up",
+        "credibility": "Major financial publication",
+        "url": "https://www.marketwatch.com/story/why-are-gasoline-prices-rising-faster-than-oil-prices-blame-it-on-the-crack-22b454e7",
+        "summary": "The crack spread matters directly to South Africa because the BFP uses finished petrol, diesel and kerosene benchmarks rather than Brent alone."
+      },
+      {
+        "title": "Latest published CEF-based outlook leaves petrol relief but diesel near or above flat",
+        "source": "Rekord / TopAuto report",
+        "date": "20 Jul 2026",
+        "category": "South Africa",
+        "score": 90,
+        "direction": "up",
+        "credibility": "CEF-based news cross-check",
+        "url": "https://www.citizen.co.za/rekord/news-headlines/2026/07/20/august-fuel-price-outlook-worsens-as-expected-petrol-savings-shrink/",
+        "summary": "The cited 16 July snapshot showed Petrol 93 down about R1.07, Petrol 95 down R1.03, Diesel 500ppm up about 1c and Diesel 50ppm down about 24c."
+      },
+      {
+        "title": "USD/ZAR traded near R16.50, close to the CEF reference level",
+        "source": "Investing.com",
+        "date": "21 Jul 2026",
+        "category": "Exchange rate",
+        "score": 48,
+        "direction": "neutral",
+        "credibility": "Live market data",
+        "url": "https://uk.investing.com/currencies/usd-zar-historical-data",
+        "summary": "Foreign exchange is not the dominant current risk. Refined-product prices and shipping remain the larger drivers."
+      },
+      {
+        "title": "Government confirms July Slate Levy of 113.94c/l and full fuel levies",
+        "source": "South African Government",
+        "date": "30 Jun 2026",
+        "category": "Slate levy",
+        "score": 88,
+        "direction": "neutral",
+        "credibility": "Official government statement",
+        "url": "https://www.gov.za/news/media-statements/minister-gwede-mantashe-announces-adjustment-fuel-prices-effective-1-july",
+        "summary": "The Slate Levy is part of petrol and diesel price structures but not the daily CEF BFP indicator. Any August change must be shown separately."
+      },
+      {
+        "title": "A durable ceasefire remains the largest downside-price catalyst",
+        "source": "Market assessment",
+        "date": "21 Jul 2026",
+        "category": "Diplomacy",
+        "score": 70,
+        "direction": "down",
+        "credibility": "Scenario based on cited market reports",
+        "url": "https://www.marketwatch.com/story/oil-prices-surge-stock-futures-dip-as-fighting-between-u-s-and-iran-intensifies-6fb37c79",
+        "summary": "A credible reopening of shipping routes could lower both crude and product premiums before the review closes."
+      },
+      {
+        "title": "Official BFP methodology uses refined-product import parity, not Brent alone",
+        "source": "DMPR",
+        "date": "Methodology",
+        "category": "Benchmark",
+        "score": 82,
+        "direction": "neutral",
+        "credibility": "Official methodology",
+        "url": "https://www.dmre.gov.za/Portals/0/Energy_Website/files/esources/pdfs/energy/liquidfuels/ANNEXURE-A-BFP-version2017.pdf",
+        "summary": "Petrol uses Mediterranean and Singapore markers; diesel and paraffin use Mediterranean and Arabian Gulf products plus import costs."
+      }
+    ],
+    "sources": [
+      {
+        "group": "Automatic live data",
+        "name": "Spargs server-side live updater",
+        "url": "api/live-data.php",
+        "used": "Refreshes CEF predictor pages, USD/ZAR, Brent context, official DMPR page health and Fuel/LPG news feeds. It caches results and keeps the packaged data as a safe fallback."
+      },
+      {
+        "group": "Official fuel prices",
+        "name": "DMPR Fuel Prices portal - August 2026 schedules and breakdowns",
+        "url": "https://www.dmpr.gov.za/Services/Petroleum-Resources/Fuel-Prices",
+        "used": "Official monthly BFP, price breakdown, diesel guidance, fuel schedules, history and press releases."
+      },
+      {
+        "group": "Official fuel methodology",
+        "name": "DMPR Fuel Price Structure - BFP markets and components",
+        "url": "https://www.dmpr.gov.za/Services/Petroleum-Resources/Fuel-Price-Structure",
+        "used": "Official explanation of the 50/50 reference-market baskets, daily CEF calculation, USD/ZAR conversion and landed/domestic price components."
+      },
+      {
+        "group": "Official LPG price",
+        "name": "Government Gazette - August 2026 LPG maximum retail price schedule",
+        "url": "https://www.gov.za/sites/default/files/gcis_document/202608/55131rg12030gon7669.pdf",
+        "used": "Official August 2026 LPG maximum retail price schedule by zone; Zone 1A is 3344 c/kg."
+      },
+      {
+        "group": "Official",
+        "name": "CEF Daily Basic Fuel Price - 13 August 2026",
+        "url": "https://cefgroup.co.za/wp-content/uploads/2026/08/Daily-13-08-2026.pdf",
+        "used": "Exact official accumulated and daily over/under-recovery figures through 13 August 2026."
+      },
+      {
+        "group": "Official",
+        "name": "South African Government fuel adjustment - 1 July 2026",
+        "url": "https://www.gov.za/news/media-statements/minister-gwede-mantashe-announces-adjustment-fuel-prices-effective-1-july",
+        "used": "Confirmed July changes, full fuel levies, 113.94c/l Slate Levy and LPG changes."
+      },
+      {
+        "group": "Official",
+        "name": "DMPR fuel prices portal",
+        "url": "https://www.dmpr.gov.za/Services/Petroleum-Resources/Fuel-Prices",
+        "used": "Official monthly schedules, price breakdowns and regulatory documents."
+      },
+      {
+        "group": "Official",
+        "name": "DMPR Basic Fuel Price Annexure A",
+        "url": "https://www.dmre.gov.za/Portals/0/Energy_Website/files/esources/pdfs/energy/liquidfuels/ANNEXURE-A-BFP-version2017.pdf",
+        "used": "Refined-product benchmark baskets, exchange-rate conversion and import-parity costs."
+      },
+      {
+        "group": "LPG benchmark",
+        "name": "Reuters - Saudi Aramco and Sonatrach July 2026 LPG prices",
+        "url": "https://www.sahmcapital.com/news/content/saudi-aramco-and-sonatrach-cut-lpg-prices-for-july-2026-07-01",
+        "used": "Confirms Saudi July propane at $580/t and butane at $600/t, plus Sonatrach regional proxy values."
+      },
+      {
+        "group": "Official benchmark methodology",
+        "name": "DMPR Fuel Price Structure - current reference markets",
+        "url": "https://www.dmpr.gov.za/Services/Petroleum-Resources/Fuel-Price-Structure",
+        "used": "Confirms petrol reference markets of 50% Mediterranean and 50% Singapore, and diesel/paraffin reference markets of 50% Mediterranean and 50% Arabian Gulf."
+      },
+      {
+        "group": "Official",
+        "name": "Self-adjusting Slate Levy Mechanism",
+        "url": "https://www.dmre.gov.za/Portals/0/Energy_Website/files/esources/pdfs/energy/liquidfuels/slate%20levy.pdf",
+        "used": "Slate trigger, cumulative-balance treatment and six-month recovery logic."
+      },
+      {
+        "group": "Cross-check",
+        "name": "TopAuto Fuel Price Predictor",
+        "url": "https://topauto.co.za/fuel-price-predictor/",
+        "used": "Independent display of CEF-based reporting-period data and projected paths."
+      },
+      {
+        "group": "Cross-check",
+        "name": "20 July CEF-based outlook report",
+        "url": "https://www.citizen.co.za/rekord/news-headlines/2026/07/20/august-fuel-price-outlook-worsens-as-expected-petrol-savings-shrink/",
+        "used": "Published 16 July snapshot for Petrol 93, Petrol 95 and both diesel grades."
+      },
+      {
+        "group": "Current price",
+        "name": "Shell South Africa price composition",
+        "url": "https://www.shell.co.za/motorists/shell-fuels/petrol-price.html",
+        "used": "Coastal and inland official price composition cross-check."
+      },
+      {
+        "group": "Current price",
+        "name": "BusinessTech July coastal price table",
+        "url": "https://businesstech.co.za/news/energy/864824/here-is-the-official-petrol-price-for-july-8/",
+        "used": "Coastal petrol, diesel, paraffin and LPG price cross-check."
+      },
+      {
+        "group": "Market",
+        "name": "MarketWatch Brent settlement - 20 July 2026",
+        "url": "https://www.marketwatch.com/story/oil-prices-surge-stock-futures-dip-as-fighting-between-u-s-and-iran-intensifies-6fb37c79",
+        "used": "Brent $89.22 settlement and shipping-risk context."
+      },
+      {
+        "group": "Market",
+        "name": "Investing.com USD/ZAR - 21 July 2026",
+        "url": "https://uk.investing.com/currencies/usd-zar-historical-data",
+        "used": "USD/ZAR 16.4978 live snapshot and recent range."
+      },
+      {
+        "group": "Market",
+        "name": "Refined-product crack-spread analysis",
+        "url": "https://www.marketwatch.com/story/why-are-gasoline-prices-rising-faster-than-oil-prices-blame-it-on-the-crack-22b454e7",
+        "used": "Evidence that refined-product prices can move faster than crude during refinery and shipping disruptions."
+      },
+      {
+        "group": "LPG official",
+        "name": "DMPR Maximum Refinery Gate Price regulations",
+        "url": "https://www.gov.za/sites/default/files/gcis_document/202005/43367rg11125gon610.pdf",
+        "used": "Saudi Contract Price definition and landed-cost components including freight, insurance, storage and stock financing."
+      },
+      {
+        "group": "LPG official",
+        "name": "DMPR petroleum pricing framework presentation",
+        "url": "https://www.dmpr.gov.za/Portals/0/Energy_Website/files/PPA-Campaigns/gauteng/Nov2023/Pricing-Framework-for-Petroleum-Products.pdf",
+        "used": "60% propane / 40% butane split and LPG price-component explanation."
+      },
+      {
+        "group": "LPG benchmark",
+        "name": "Saudi Aramco July 2026 LPG Contract Prices",
+        "url": "https://finwires.com/en/article/aramco-slashes-july-lpg-contract-prices-6910511",
+        "used": "July propane $580/t and butane $600/t versus June $760/t and $820/t."
+      },
+      {
+        "group": "LPG freight",
+        "name": "Riviera Maritime - elevated VLGC rates",
+        "url": "https://www.rivieramm.com/news-content-hub/ballast-vlgc-enters-gulf-on-short-term-fixture-at-sky-high-spot-rates-89286",
+        "used": "Freight-risk scenario and volatility rating."
+      },
+      {
+        "group": "LPG supply",
+        "name": "Argus - Africa LPG infrastructure constraints",
+        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2757746-africa-s-lpg-growth-faces-supply-and-logistics-hurdles",
+        "used": "Local terminal, storage and inland-logistics risk context."
+      }
+    ],
+    "buildLabel": "SPARGS AUTO LIVE EDITION",
+    "modelVersion": "2026.08-auto-live",
+    "modelWarning": "Latest publicly reported CEF snapshot is used as the headline. Petrol 93 -R1.07/l, Petrol 95 -R1.03/l, Diesel 500ppm +R0.01/l, Diesel 50ppm -R0.24/l and illuminating paraffin -R0.22/l as at 16 July 2026. These remain indicative until the official August announcement.",
+    "lpg": {
+      "effectiveFrom": "2026-08-05",
+      "effectiveTo": "2026-09-01",
+      "nextAdjustmentDate": "2026-09-02",
+      "current": {
+        "coastal": 33.44,
+        "inland": 36.7,
+        "saldanha": 35.81
+      },
+      "mix": {
+        "propane": 0.6,
+        "butane": 0.4
+      },
+      "previousCp": {
+        "month": "July 2026",
+        "propane": 580,
+        "butane": 600,
+        "weighted": 588
+      },
+      "currentCp": {
+        "month": "August 2026",
+        "propane": 620,
+        "butane": 640,
+        "weighted": 628
+      },
+      "cpDeltaUsdPerTonne": 40,
+      "modelUsdZar": 16.1606,
+      "rawBenchmarkChangeRandKg": 0.65,
+      "forecast": {
+        "best": {
+          "change": -0.07,
+          "coastal": 33.37,
+          "inland": 36.63,
+          "saldanha": 35.74
+        },
+        "central": {
+          "change": 0.53,
+          "coastal": 33.97,
+          "inland": 37.23,
+          "saldanha": 36.34
+        },
+        "worst": {
+          "change": 1.33,
+          "coastal": 34.77,
+          "inland": 38.03,
+          "saldanha": 37.14
+        }
+      },
+      "confidence": 55,
+      "confidenceLabel": "Medium",
+      "volatility": 76,
+      "volatilityLabel": "High",
+      "summary": "August Saudi Contract Prices rose by USD 40/t versus July. The 60/40 propane-butane benchmark rises from USD 588/t to USD 628/t, equal to about R0.65/kg at R16.1606/USD before freight, insurance, storage, financing, margins, VAT and official rounding. The September LPG retail figure remains a model; the final gazetted maximum overrides it.",
+      "methodNote": "LPG is modelled separately from petrol and diesel. South Africa uses an import-parity LPG framework based on Saudi Contract Prices and import/logistics costs. Brent and CEF fuel recoveries are secondary context, not the direct LPG price marker.",
+      "drivers": [
+        {
+          "name": "Saudi propane CP",
+          "score": 68,
+          "direction": "up",
+          "detail": "USD 580/t to USD 620/t for August."
+        },
+        {
+          "name": "Saudi butane CP",
+          "score": 72,
+          "direction": "up",
+          "detail": "USD 600/t to USD 640/t for August."
+        },
+        {
+          "name": "USD/ZAR",
+          "score": 34,
+          "direction": "down",
+          "detail": "The rand is firmer than the prior packaged snapshot, partially offsetting the CP increase."
+        },
+        {
+          "name": "VLGC freight and insurance",
+          "score": 72,
+          "direction": "up",
+          "detail": "Gas-carrier and route risk can amplify the landed-cost move."
+        },
+        {
+          "name": "Winter demand and local supply",
+          "score": 52,
+          "direction": "up",
+          "detail": "Winter demand and local logistics remain supportive of delivered costs."
+        },
+        {
+          "name": "Global LPG supply",
+          "score": 50,
+          "direction": "neutral",
+          "detail": "Supply conditions are mixed; the Saudi CP increase is the direct monthly benchmark signal."
+        }
+      ],
+      "projectionPath": {
+        "dates": [
+          "5 Aug",
+          "12 Aug",
+          "19 Aug",
+          "26 Aug",
+          "2 Sep"
+        ],
+        "best": [
+          33.44,
+          33.42,
+          33.4,
+          33.38,
+          33.37
+        ],
+        "central": [
+          33.44,
+          33.55,
+          33.67,
+          33.83,
+          33.97
+        ],
+        "worst": [
+          33.44,
+          33.72,
+          34.02,
+          34.38,
+          34.77
+        ]
+      }
+    },
+    "benchmarks": {
+      "fuel": [
+        {
+          "product": "Petrol 95 ULP",
+          "group": "Direct formula",
+          "benchmark": "Mediterranean Premium Unleaded 95 FOB cargo + Singapore Mogas 95 FOB spot",
+          "market": "Mediterranean / Singapore",
+          "weight": "50% / 50%",
+          "frequency": "Every working day",
+          "role": "Primary BFP marker",
+          "current": "CEF: +73.87 c/l",
+          "status": "Official basket",
+          "direct": true,
+          "note": "Petrol 95 is the South African price-marker grade. The CEF recovery is the accessible official daily output of the proprietary spot basket."
+        },
+        {
+          "product": "Petrol 93 ULP",
+          "group": "Direct formula",
+          "benchmark": "Petrol 95 marker less the Singapore 95/92 octane differential, prorated for 93 octane",
+          "market": "Singapore octane spread",
+          "weight": "Quarterly differential",
+          "frequency": "Jan / Apr / Jul / Oct",
+          "role": "Grade differential",
+          "current": "CEF: +62.88 c/l",
+          "status": "Official method",
+          "direct": true,
+          "note": "The monthly adjustment follows the 95 marker; the 93-versus-95 differential is recalculated at the start of each quarter."
+        },
+        {
+          "product": "Diesel 500ppm",
+          "group": "Direct formula",
+          "benchmark": "Mediterranean gasoil sulphur interpolation + Arabian Gulf 0.05% gasoil FOB spot and premium",
+          "market": "Mediterranean / Arabian Gulf",
+          "weight": "50% / 50%",
+          "frequency": "Every working day",
+          "role": "Primary BFP basket",
+          "current": "CEF: +272.51 c/l",
+          "status": "Official basket",
+          "direct": true,
+          "note": "Tracks middle-distillate product prices, not Brent alone. Freight and product cracks can move diesel sharply."
+        },
+        {
+          "product": "Diesel 50ppm",
+          "group": "Direct formula",
+          "benchmark": "Mediterranean 1000ppm/10ppm interpolation + calculated Arabian Gulf 50ppm gasoil FOB and premium",
+          "market": "Mediterranean / Arabian Gulf",
+          "weight": "50% / 50%",
+          "frequency": "Every working day",
+          "role": "Primary BFP basket",
+          "current": "CEF: +288.61 c/l",
+          "status": "Official basket",
+          "direct": true,
+          "note": "The low-sulphur calculation uses sulphur differentials to derive the applicable 50ppm product value."
+        },
+        {
+          "product": "Illuminating paraffin",
+          "group": "Direct formula",
+          "benchmark": "Mediterranean Jet A1 FOB cargo + premium and Arabian Gulf Jet/Kero FOB spot + premium",
+          "market": "Mediterranean / Arabian Gulf",
+          "weight": "50% / 50%",
+          "frequency": "Every working day",
+          "role": "Primary BFP basket",
+          "current": "CEF: +214.77 c/l",
+          "status": "Official basket",
+          "direct": true,
+          "note": "The official method also includes a quality premium. Paraffin follows the kerosene/jet market and has no Slate Levy."
+        },
+        {
+          "product": "All liquid fuels",
+          "group": "Direct formula",
+          "benchmark": "USD/ZAR exchange rate at the official daily observation time",
+          "market": "South African FX market",
+          "weight": "100% conversion input",
+          "frequency": "Every working day",
+          "role": "Currency conversion",
+          "current": "R16.1606 / USD market context",
+          "status": "Direct input",
+          "direct": true,
+          "note": "A weaker rand raises the landed rand cost even when dollar product prices are unchanged."
+        },
+        {
+          "product": "All liquid fuels",
+          "group": "Landed cost",
+          "benchmark": "Worldscale route freight adjusted through the applicable freight assessment methodology",
+          "market": "International clean-product tanker market",
+          "weight": "Route specific",
+          "frequency": "Monthly / annual settings",
+          "role": "Ocean freight",
+          "current": "Included in CEF BFP",
+          "status": "Direct component",
+          "direct": true,
+          "note": "Shipping risk and vessel availability affect the delivered import-parity value."
+        },
+        {
+          "product": "All liquid fuels",
+          "group": "Landed cost",
+          "benchmark": "Worldscale demurrage allowance",
+          "market": "Worldscale Association",
+          "weight": "Maximum 3 days in BFP",
+          "frequency": "As tariff changes",
+          "role": "Port delay cost",
+          "current": "Included in CEF BFP",
+          "status": "Direct component",
+          "direct": true,
+          "note": "Compensates for vessel detention during loading and discharge."
+        },
+        {
+          "product": "All liquid fuels",
+          "group": "Landed cost",
+          "benchmark": "Insurance and associated import costs",
+          "market": "FOB + freight",
+          "weight": "0.15%",
+          "frequency": "Daily with landed value",
+          "role": "Insurance / finance fees",
+          "current": "Included in CEF BFP",
+          "status": "Direct component",
+          "direct": true,
+          "note": "Covers insurance, letters of credit, surveyors, agents and laboratory costs."
+        },
+        {
+          "product": "All liquid fuels",
+          "group": "Landed cost",
+          "benchmark": "Ocean loss allowance",
+          "market": "FOB + freight + insurance",
+          "weight": "0.30%",
+          "frequency": "Daily with landed value",
+          "role": "Uninsurable loss allowance",
+          "current": "Included in CEF BFP",
+          "status": "Direct component",
+          "direct": true,
+          "note": "Allowance for typical uninsurable product losses during marine transport."
+        },
+        {
+          "product": "All liquid fuels",
+          "group": "Landed cost",
+          "benchmark": "Cargo dues / wharfage tariff",
+          "market": "Transnet National Ports Authority",
+          "weight": "Tariff based",
+          "frequency": "When port tariff changes",
+          "role": "Port handling",
+          "current": "Included in CEF BFP",
+          "status": "Direct component",
+          "direct": true,
+          "note": "Cost of using South African harbour facilities to discharge imported product."
+        },
+        {
+          "product": "All liquid fuels",
+          "group": "Landed cost",
+          "benchmark": "Coastal storage and handling",
+          "market": "South African coastal terminals",
+          "weight": "25-day BFP allowance",
+          "frequency": "Annual PPI adjustment",
+          "role": "Storage",
+          "current": "Included in CEF BFP",
+          "status": "Direct component",
+          "direct": true,
+          "note": "Recovers the regulated/deemed cost of coastal terminal storage and handling."
+        },
+        {
+          "product": "All liquid fuels",
+          "group": "Landed cost",
+          "benchmark": "Stock financing",
+          "market": "Landed cost and South African prime rate",
+          "weight": "25 days; prime less 2%",
+          "frequency": "With rate and landed cost",
+          "role": "Working-capital cost",
+          "current": "Included in CEF BFP",
+          "status": "Direct component",
+          "direct": true,
+          "note": "Finances the deemed stockholding period used in the import-parity calculation."
+        },
+        {
+          "product": "Petrol and diesel",
+          "group": "Government adjustment",
+          "benchmark": "Daily unit over/under recovery and cumulative Slate Account",
+          "market": "CEF / DMPR",
+          "weight": "Review-period average",
+          "frequency": "Daily; levy monthly if triggered",
+          "role": "Official adjustment anchor",
+          "current": "August Slate Levy: 61.38 c/l",
+          "status": "Official",
+          "direct": true,
+          "note": "The Slate Levy can alter petrol and diesel prices separately from the core BFP move."
+        },
+        {
+          "product": "All regulated fuels",
+          "group": "Domestic pricing",
+          "benchmark": "Magisterial District Zone transport differential",
+          "market": "54 South African pricing zones",
+          "weight": "Zone specific",
+          "frequency": "Tariff revisions",
+          "role": "Coastal-to-inland transport",
+          "current": "Zone 1A used in dashboard",
+          "status": "Official",
+          "direct": true,
+          "note": "Road, rail and pipeline transport costs create different official prices by zone."
+        },
+        {
+          "product": "Fuel market",
+          "group": "Market proxy",
+          "benchmark": "Brent crude oil",
+          "market": "ICE / global crude",
+          "weight": "Context only",
+          "frequency": "Live market",
+          "role": "Feedstock and sentiment proxy",
+          "current": "$88.72/bbl context",
+          "status": "Proxy only",
+          "direct": false,
+          "note": "Useful for direction and risk, but the BFP uses finished-product prices rather than Brent by itself."
+        },
+        {
+          "product": "Petrol",
+          "group": "Market proxy",
+          "benchmark": "Gasoline crack spread and refinery availability",
+          "market": "Global refining hubs",
+          "weight": "Context only",
+          "frequency": "Live market",
+          "role": "Product premium proxy",
+          "current": "Elevated risk",
+          "status": "Proxy only",
+          "direct": false,
+          "note": "Explains why petrol may move differently from crude oil."
+        },
+        {
+          "product": "Diesel / paraffin",
+          "group": "Market proxy",
+          "benchmark": "Gasoil, diesel and jet/kerosene crack spreads",
+          "market": "Mediterranean / Middle East / Asia",
+          "weight": "Context only",
+          "frequency": "Live market",
+          "role": "Middle-distillate pressure",
+          "current": "High pressure",
+          "status": "Proxy only",
+          "direct": false,
+          "note": "The most useful early-warning proxy for diesel and paraffin when proprietary spot assessments are unavailable."
+        },
+        {
+          "product": "All liquid fuels",
+          "group": "Official output",
+          "benchmark": "CEF daily Basic Fuel Price over/under-recovery table by grade",
+          "market": "Central Energy Fund / DMPR",
+          "weight": "Review-period accumulator",
+          "frequency": "Every working day",
+          "role": "Primary official forecast anchor",
+          "current": "Official anchor dated 2026-08-13",
+          "status": "Official output",
+          "direct": true,
+          "note": "The most important accessible input for a South African monthly forecast. It captures the official product basket, exchange rate and landed-cost methodology up to the publication date."
+        },
+        {
+          "product": "All regulated fuels",
+          "group": "Official output",
+          "benchmark": "Monthly DMPR price adjustment and gazetted price schedules",
+          "market": "South African Government / DMPR",
+          "weight": "Final legal outcome",
+          "frequency": "First Wednesday monthly",
+          "role": "Final official benchmark",
+          "current": "Next adjustment 2026-09-02",
+          "status": "Official output",
+          "direct": true,
+          "note": "The final announced result supersedes every model and is used for accuracy scoring and price-board updates."
+        },
+        {
+          "product": "Petrol and diesel",
+          "group": "Domestic pricing",
+          "benchmark": "General Fuel Levy",
+          "market": "National Treasury / DMPR",
+          "weight": "Statutory c/l",
+          "frequency": "Budget and special adjustments",
+          "role": "Tax component",
+          "current": "Included in official August structure",
+          "status": "Official component",
+          "direct": true,
+          "note": "A policy-controlled component that can change pump prices independently of international product markets."
+        },
+        {
+          "product": "Petrol and diesel",
+          "group": "Domestic pricing",
+          "benchmark": "Road Accident Fund Levy",
+          "market": "National Treasury / DMPR",
+          "weight": "Statutory c/l",
+          "frequency": "Budget adjustments",
+          "role": "Levy component",
+          "current": "Included in official August structure",
+          "status": "Official component",
+          "direct": true,
+          "note": "Applies to petrol and diesel and is separate from the BFP movement."
+        },
+        {
+          "product": "Petrol and diesel",
+          "group": "Domestic pricing",
+          "benchmark": "Customs and Excise Levy",
+          "market": "SACU / SARS / DMPR",
+          "weight": "Statutory c/l",
+          "frequency": "Policy adjustment",
+          "role": "Levy component",
+          "current": "Included in official price build-up",
+          "status": "Official component",
+          "direct": true,
+          "note": "A regulated domestic impost included after the international BFP component."
+        },
+        {
+          "product": "Petrol",
+          "group": "Domestic pricing",
+          "benchmark": "Regulated wholesale and retail margins",
+          "market": "DMPR margin models",
+          "weight": "Product and activity specific",
+          "frequency": "Periodic / annual review",
+          "role": "Pump-price margin",
+          "current": "Included in official petrol price",
+          "status": "Official component",
+          "direct": true,
+          "note": "Petrol retail is regulated; changes in allowable margins can move the pump price even when BFP is unchanged."
+        },
+        {
+          "product": "Diesel and paraffin",
+          "group": "Domestic pricing",
+          "benchmark": "Published wholesale margin and retail guidance",
+          "market": "DMPR price schedules",
+          "weight": "Product specific",
+          "frequency": "Monthly schedule / periodic review",
+          "role": "Wholesale benchmark",
+          "current": "Included in published wholesale price",
+          "status": "Official component",
+          "direct": true,
+          "note": "Diesel retail prices are not nationally fixed, so the published wholesale benchmark and local dealer margin must be kept separate."
+        },
+        {
+          "product": "Petrol 95",
+          "group": "Domestic pricing",
+          "benchmark": "Demand Side Management Levy on 95 unleaded petrol",
+          "market": "DMPR",
+          "weight": "Statutory c/l where applicable",
+          "frequency": "Official price structure",
+          "role": "Demand-management component",
+          "current": "Official price-build component",
+          "status": "Official component",
+          "direct": true,
+          "note": "A product-specific domestic component that should not be applied to diesel, paraffin or LPG."
+        },
+        {
+          "product": "Diesel",
+          "group": "Domestic pricing",
+          "benchmark": "Tracer Dye Levy",
+          "market": "DMPR",
+          "weight": "Statutory c/l",
+          "frequency": "Official price structure",
+          "role": "Product-control component",
+          "current": "Official diesel structure component",
+          "status": "Official component",
+          "direct": true,
+          "note": "Supports control of unlawful mixing and misuse of marked products."
+        },
+        {
+          "product": "Petrol and diesel",
+          "group": "Domestic pricing",
+          "benchmark": "Petroleum Pipelines Levy",
+          "market": "NERSA / DMPR",
+          "weight": "Statutory c/l",
+          "frequency": "Tariff review",
+          "role": "Regulatory component",
+          "current": "Included where applicable",
+          "status": "Official component",
+          "direct": true,
+          "note": "Supports pipeline regulation and forms part of the domestic build-up rather than the international BFP."
+        },
+        {
+          "product": "Fuel market",
+          "group": "Market proxy",
+          "benchmark": "Dubai/Oman sour crude marker",
+          "market": "Middle East crude market",
+          "weight": "Context only",
+          "frequency": "Live market",
+          "role": "Arabian Gulf feedstock proxy",
+          "current": "Monitor direction and spread to Brent",
+          "status": "Proxy only",
+          "direct": false,
+          "note": "Useful context for Arabian Gulf refiners and middle-distillate economics, but not a substitute for the finished-product basket."
+        },
+        {
+          "product": "Fuel market",
+          "group": "Market proxy",
+          "benchmark": "Clean-product tanker rates and marine bunker fuel",
+          "market": "Global shipping market",
+          "weight": "Scenario input",
+          "frequency": "Live market",
+          "role": "Freight pressure proxy",
+          "current": "High-volatility context",
+          "status": "Proxy / scenario",
+          "direct": false,
+          "note": "Tanker tightness and bunker costs help anticipate freight pressure before the official landed-cost outcome is fully visible."
+        },
+        {
+          "product": "Petrol market",
+          "group": "Market proxy",
+          "benchmark": "Mediterranean and Singapore gasoline cracks, inventories and refinery outages",
+          "market": "Europe / Asia refining hubs",
+          "weight": "Scenario input",
+          "frequency": "Daily / weekly",
+          "role": "Petrol nowcast signal",
+          "current": "Elevated but volatile",
+          "status": "Proxy / scenario",
+          "direct": false,
+          "note": "Adds early warning for the remaining review period and helps distinguish petrol from crude-oil moves."
+        },
+        {
+          "product": "Diesel / paraffin market",
+          "group": "Market proxy",
+          "benchmark": "Gasoil and jet/kerosene inventories, cracks and refinery outages",
+          "market": "Europe / Middle East / Asia",
+          "weight": "Scenario input",
+          "frequency": "Daily / weekly",
+          "role": "Middle-distillate nowcast signal",
+          "current": "High pressure",
+          "status": "Proxy / scenario",
+          "direct": false,
+          "note": "The strongest explanatory proxy when diesel and paraffin diverge from petrol."
+        },
+        {
+          "product": "Fuel market",
+          "group": "Market proxy",
+          "benchmark": "OPEC+ supply policy and geopolitical disruption score",
+          "market": "Global oil supply",
+          "weight": "Risk-range input",
+          "frequency": "Event driven",
+          "role": "Volatility and tail-risk proxy",
+          "current": "High event risk",
+          "status": "Proxy / scenario",
+          "direct": false,
+          "note": "Used to widen best/worst ranges, not to replace the official product-price calculation."
+        },
+        {
+          "product": "Fuel market",
+          "group": "Market proxy",
+          "benchmark": "US and OECD petroleum inventory trends",
+          "market": "EIA / IEA data",
+          "weight": "Context only",
+          "frequency": "Weekly / monthly",
+          "role": "Global demand-supply confirmation",
+          "current": "Monitor gasoline and distillate stocks separately",
+          "status": "Proxy only",
+          "direct": false,
+          "note": "Inventory direction helps confirm whether product-market pressure is persistent or temporary."
+        }
+      ],
+      "lpg": [
+        {
+          "product": "LPG propane",
+          "group": "Direct formula",
+          "benchmark": "Saudi Aramco propane Contract Price / official selling price",
+          "market": "Saudi Arabia / Middle East exports",
+          "weight": "60%",
+          "frequency": "Monthly",
+          "role": "Primary LPG product marker",
+          "current": "$620/t (August 2026)",
+          "status": "Direct input",
+          "direct": true,
+          "note": "South Africa uses the monthly Saudi Contract Price as the core import-parity product benchmark."
+        },
+        {
+          "product": "LPG butane",
+          "group": "Direct formula",
+          "benchmark": "Saudi Aramco butane Contract Price / official selling price",
+          "market": "Saudi Arabia / Middle East exports",
+          "weight": "40%",
+          "frequency": "Monthly",
+          "role": "Primary LPG product marker",
+          "current": "$640/t (August 2026)",
+          "status": "Direct input",
+          "direct": true,
+          "note": "Combined with propane using the South African 60/40 blend assumption."
+        },
+        {
+          "product": "LPG blend",
+          "group": "Direct formula",
+          "benchmark": "Weighted Saudi CP blend",
+          "market": "60% propane + 40% butane",
+          "weight": "100%",
+          "frequency": "Monthly",
+          "role": "Core product benchmark",
+          "current": "$628/t; up $40/t",
+          "status": "Calculated direct",
+          "direct": true,
+          "note": "July weighted CP was $588/t; August is $628/t before landed costs and local regulated price components."
+        },
+        {
+          "product": "LPG",
+          "group": "Direct formula",
+          "benchmark": "USD/ZAR exchange rate",
+          "market": "South African FX market",
+          "weight": "100% conversion input",
+          "frequency": "Review-period average",
+          "role": "Currency conversion",
+          "current": "Model R16.1606 / USD",
+          "status": "Direct input",
+          "direct": true,
+          "note": "Converts the dollar CP and import costs into rand per kilogram."
+        },
+        {
+          "product": "LPG",
+          "group": "Landed cost",
+          "benchmark": "Time Charter Equivalent freight for a suitable LPG carrier / VLGC",
+          "market": "Middle East to South African ports",
+          "weight": "Route specific",
+          "frequency": "Monthly / market driven",
+          "role": "Ocean freight",
+          "current": "High / volatile",
+          "status": "Direct component",
+          "direct": true,
+          "note": "The largest uncertainty in the current forecast; high charter rates can absorb part of the CP decrease."
+        },
+        {
+          "product": "LPG",
+          "group": "Landed cost",
+          "benchmark": "Insurance and associated import costs",
+          "market": "FOB + freight",
+          "weight": "0.15%",
+          "frequency": "Monthly with landed value",
+          "role": "Insurance",
+          "current": "Formula component",
+          "status": "Direct component",
+          "direct": true,
+          "note": "Official regulation specifies 0.15% of free-on-board value plus freight."
+        },
+        {
+          "product": "LPG",
+          "group": "Landed cost",
+          "benchmark": "Storage and handling at coastal terminals",
+          "market": "NERSA-determined terminal costs",
+          "weight": "Regulated",
+          "frequency": "When tariff changes",
+          "role": "Storage",
+          "current": "Formula component",
+          "status": "Direct component",
+          "direct": true,
+          "note": "Based on the cost of coastal LPG storage and handling facilities."
+        },
+        {
+          "product": "LPG",
+          "group": "Landed cost",
+          "benchmark": "Demurrage rate",
+          "market": "Worldscale Association / charter terms",
+          "weight": "Voyage specific",
+          "frequency": "Market / tariff driven",
+          "role": "Delay cost",
+          "current": "Formula component",
+          "status": "Direct component",
+          "direct": true,
+          "note": "Compensation payable for vessel detention beyond the contracted loading or discharge time."
+        },
+        {
+          "product": "LPG",
+          "group": "Landed cost",
+          "benchmark": "Cargo dues",
+          "market": "Transnet National Ports Authority",
+          "weight": "Tariff based",
+          "frequency": "When tariff changes",
+          "role": "Port handling",
+          "current": "Formula component",
+          "status": "Direct component",
+          "direct": true,
+          "note": "Harbour facility cost for offloading LPG at South African ports."
+        },
+        {
+          "product": "LPG",
+          "group": "Landed cost",
+          "benchmark": "Stock financing",
+          "market": "Landed LPG cost and South African prime rate",
+          "weight": "Allowable stock days; prime less 2%",
+          "frequency": "With rate and landed cost",
+          "role": "Working-capital cost",
+          "current": "Formula component",
+          "status": "Direct component",
+          "direct": true,
+          "note": "Financing cost based on landed values, allowed stockholding days and prime less two percentage points."
+        },
+        {
+          "product": "LPG",
+          "group": "Official output",
+          "benchmark": "Maximum Refinery Gate Price (MRGP)",
+          "market": "CEF / DMPR",
+          "weight": "All import-parity components",
+          "frequency": "First Wednesday monthly",
+          "role": "Official wholesale ceiling",
+          "current": "Saldanha: R18,370.34/t",
+          "status": "Official output",
+          "direct": true,
+          "note": "The regulated maximum at which a refinery or importer may market LPG."
+        },
+        {
+          "product": "LPG",
+          "group": "Official output",
+          "benchmark": "Maximum Retail Price by pricing zone",
+          "market": "South African LPG zones",
+          "weight": "MRGP + regulated/local components",
+          "frequency": "First Wednesday monthly",
+          "role": "Official retail ceiling",
+          "current": "Coastal R33.44/kg; inland R36.70/kg",
+          "status": "Official output",
+          "direct": true,
+          "note": "The dashboard tracks coastal Zone 1A, inland Zone 9C and the separate Saldanha maximum."
+        },
+        {
+          "product": "LPG market",
+          "group": "Market proxy",
+          "benchmark": "Sonatrach propane and butane OSP",
+          "market": "Mediterranean / Black Sea",
+          "weight": "Context only",
+          "frequency": "Monthly",
+          "role": "Alternative regional LPG marker",
+          "current": "Propane $518/t; butane $600/t",
+          "status": "Proxy only",
+          "direct": false,
+          "note": "Useful confirmation of global LPG direction, but not the South African formula marker."
+        },
+        {
+          "product": "LPG market",
+          "group": "Market proxy",
+          "benchmark": "Argus Far East Index / Asia delivered LPG assessments",
+          "market": "Asia-Pacific",
+          "weight": "Context only",
+          "frequency": "Daily / monthly",
+          "role": "Delivered-market proxy",
+          "current": "Proprietary assessment",
+          "status": "Proxy only",
+          "direct": false,
+          "note": "Shows Asian delivered demand and freight pressure around the Saudi CP reference."
+        },
+        {
+          "product": "LPG market",
+          "group": "Market proxy",
+          "benchmark": "Mont Belvieu propane/butane and US inventories",
+          "market": "United States Gulf Coast",
+          "weight": "Context only",
+          "frequency": "Live / weekly",
+          "role": "Global supply proxy",
+          "current": "Softening context",
+          "status": "Proxy only",
+          "direct": false,
+          "note": "A useful global supply signal, but not a direct input to the South African regulated formula."
+        },
+        {
+          "product": "LPG freight",
+          "group": "Market proxy",
+          "benchmark": "VLGC spot rates, Panama/Hormuz/Red Sea route risk and bunker fuel",
+          "market": "Global gas-carrier market",
+          "weight": "Context / scenario input",
+          "frequency": "Live market",
+          "role": "Freight risk proxy",
+          "current": "High volatility",
+          "status": "Proxy / scenario",
+          "direct": false,
+          "note": "Used to widen the best-to-worst forecast range when official landed freight is not yet known."
+        },
+        {
+          "product": "LPG",
+          "group": "Domestic pricing",
+          "benchmark": "Primary transport differential by LPG pricing zone",
+          "market": "South African LPG pricing zones",
+          "weight": "Zone specific",
+          "frequency": "Tariff / regulatory review",
+          "role": "Coastal-to-inland transport",
+          "current": "Reflected in Zone 1A and Zone 9C maximums",
+          "status": "Official component",
+          "direct": true,
+          "note": "Explains why inland LPG maximums differ from coastal maximums even when the same MRGP is used."
+        },
+        {
+          "product": "LPG retail",
+          "group": "Domestic pricing",
+          "benchmark": "Operating-expense allowance",
+          "market": "DMPR LPG maximum retail price structure",
+          "weight": "Regulated retail component",
+          "frequency": "Annual adjustment / regulatory review",
+          "role": "Retail cost recovery",
+          "current": "Included in official MRP",
+          "status": "Official component",
+          "direct": true,
+          "note": "Adjusted under the regulated retail framework and separate from Saudi CP and ocean freight."
+        },
+        {
+          "product": "LPG retail",
+          "group": "Domestic pricing",
+          "benchmark": "Working-capital allowance in the retail price structure",
+          "market": "DMPR LPG maximum retail price structure",
+          "weight": "Regulated retail component",
+          "frequency": "Annual adjustment / regulatory review",
+          "role": "Retail finance cost",
+          "current": "Included in official MRP",
+          "status": "Official component",
+          "direct": true,
+          "note": "Covers financing needs in the local retail/distribution chain and is distinct from import stock financing."
+        },
+        {
+          "product": "LPG retail",
+          "group": "Domestic pricing",
+          "benchmark": "Depreciation allowance",
+          "market": "DMPR LPG maximum retail price structure",
+          "weight": "Regulated retail component",
+          "frequency": "Annual adjustment / regulatory review",
+          "role": "Asset recovery",
+          "current": "Included in official MRP",
+          "status": "Official component",
+          "direct": true,
+          "note": "A regulated local component adjusted separately from the monthly import benchmark."
+        },
+        {
+          "product": "LPG retail",
+          "group": "Domestic pricing",
+          "benchmark": "Gross margin allowance",
+          "market": "DMPR LPG maximum retail price structure",
+          "weight": "Regulated retail component",
+          "frequency": "Annual adjustment / regulatory review",
+          "role": "Distribution and retail margin",
+          "current": "Included in official MRP",
+          "status": "Official component",
+          "direct": true,
+          "note": "Part of the regulated maximum retail build-up after the MRGP and transport components."
+        },
+        {
+          "product": "LPG retail",
+          "group": "Domestic pricing",
+          "benchmark": "VAT and official rounding",
+          "market": "SARS / DMPR",
+          "weight": "Statutory percentage and rounding rule",
+          "frequency": "Tax or regulatory change",
+          "role": "Final retail calculation",
+          "current": "Included in gazetted maximum",
+          "status": "Official component",
+          "direct": true,
+          "note": "Applied in the final maximum retail price and can create small differences from a raw benchmark-only estimate."
+        },
+        {
+          "product": "LPG Saldanha",
+          "group": "Official output",
+          "benchmark": "Saldanha Bay special MRGP and MRP route",
+          "market": "Port of Saldanha Bay / Western Cape",
+          "weight": "Separate official route",
+          "frequency": "Monthly",
+          "role": "Special import-price ceiling",
+          "current": "MRP R35.81/kg; August 2026 official maximum",
+          "status": "Official output",
+          "direct": true,
+          "note": "Must be tracked separately from the normal coastal Zone 1A maximum because the special import route has its own gazetted values."
+        },
+        {
+          "product": "LPG market",
+          "group": "Market proxy",
+          "benchmark": "US EIA propane/propylene inventories and exports",
+          "market": "United States",
+          "weight": "Context only",
+          "frequency": "Weekly",
+          "role": "Global supply confirmation",
+          "current": "Monitor stocks and export draw",
+          "status": "Proxy only",
+          "direct": false,
+          "note": "Useful for confirming global LPG supply tightness, but not a direct South African pricing input."
+        },
+        {
+          "product": "LPG market",
+          "group": "Market proxy",
+          "benchmark": "Saudi CP versus Argus Far East Index / FEI spread",
+          "market": "Middle East to Asia",
+          "weight": "Scenario input",
+          "frequency": "Daily / monthly",
+          "role": "Asia demand and freight signal",
+          "current": "Proprietary market context",
+          "status": "Proxy / scenario",
+          "direct": false,
+          "note": "Helps explain whether Saudi CP is likely to remain firm or soften and whether delivered Asian demand is absorbing supply."
+        },
+        {
+          "product": "LPG freight",
+          "group": "Market proxy",
+          "benchmark": "VLGC fleet utilisation, newbuilding deliveries and route availability",
+          "market": "Global gas-carrier fleet",
+          "weight": "Scenario input",
+          "frequency": "Weekly / monthly",
+          "role": "Freight persistence signal",
+          "current": "High-volatility context",
+          "status": "Proxy / scenario",
+          "direct": false,
+          "note": "Distinguishes a temporary freight spike from a persistent vessel-supply shortage."
+        },
+        {
+          "product": "LPG South Africa",
+          "group": "Market proxy",
+          "benchmark": "Local refinery, import terminal, rail and storage availability",
+          "market": "South African LPG supply chain",
+          "weight": "Risk-range input",
+          "frequency": "Event driven",
+          "role": "Local supply-premium signal",
+          "current": "Infrastructure constraint risk",
+          "status": "Proxy / scenario",
+          "direct": false,
+          "note": "Can affect availability and delivery economics even when the official maximum retail price falls."
+        },
+        {
+          "product": "LPG demand",
+          "group": "Market proxy",
+          "benchmark": "South African winter demand and load-shedding substitution",
+          "market": "Household and commercial LPG demand",
+          "weight": "Risk-range input",
+          "frequency": "Seasonal / event driven",
+          "role": "Demand pressure proxy",
+          "current": "Winter demand elevated",
+          "status": "Proxy / scenario",
+          "direct": false,
+          "note": "Used for stock and delivery timing, not as a direct input to the regulated maximum price."
+        },
+        {
+          "product": "LPG operations",
+          "group": "Market proxy",
+          "benchmark": "Cylinder filling, distribution capacity and delivered-cost spread",
+          "market": "Local distributors and retailers",
+          "weight": "Operational input",
+          "frequency": "Local / daily",
+          "role": "Spargs delivered-cost and stock signal",
+          "current": "Enter local supplier quotations",
+          "status": "Operational proxy",
+          "direct": false,
+          "note": "Supports store decisions because the gazetted maximum and the actual delivered purchase cost are not the same thing."
+        }
+      ]
+    },
+    "forecastGovernance": {
+      "liquidFuelAnchor": "Latest available official CEF daily over/under-recovery by grade; reputable predictor pages are secondary live fallbacks only.",
+      "liquidFuelEngine": "CEF anchor + remaining-review-period finished-product, FX and landed-cost scenarios + policy layer",
+      "lpgAnchor": "60% Saudi propane CP + 40% Saudi butane CP",
+      "lpgEngine": "Weighted Saudi CP + USD/ZAR + LPG freight/insurance/storage/demurrage/port/finance + regulated retail components",
+      "separationRule": "LPG never uses the petrol/diesel CEF recovery or Slate Levy. Brent is context, not the direct marker for either engine.",
+      "confidenceRule": "Confidence falls when the official anchor is stale, the review period is incomplete, product/freight volatility is high, or direct benchmark coverage is incomplete.",
+      "publicationRule": "Prefer the newest dated official CEF report, retain source/date health, and never overwrite a newer official anchor with an older secondary snapshot."
+    }
+  },
+  "health": [
+    {
+      "name": "Packaged official CEF anchor",
+      "ok": true,
+      "message": "Updated through 13 Aug 2026; server updater may replace with newer valid data.",
+      "url": "https://cefgroup.co.za/2026-4/"
+    },
+    {
+      "name": "August official monthly adjustment",
+      "ok": true,
+      "message": "Effective 5 Aug 2026 values loaded.",
+      "url": "https://www.gov.za/news/media-statements/minister-gwede-mantashe-announces-adjustment-fuel-prices-effective-5-august-0"
+    }
+  ]
+}

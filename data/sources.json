@@ -1,0 +1,134 @@
+[
+  {
+    "group": "Official live fuel anchor",
+    "name": "CEF Daily Basic Fuel Price - 13 August 2026",
+    "url": "https://cefgroup.co.za/wp-content/uploads/2026/08/Daily-13-08-2026.pdf",
+    "used": "Newest direct official CEF average over/(under)-recovery values used in the packaged headline: P95 +73.871c/l, P93 +62.883c/l, D500 +272.505c/l, D50 +288.609c/l and paraffin +214.765c/l in price-adjustment direction."
+  },
+  {
+    "group": "Official fuel prices",
+    "name": "DMPR Fuel Prices portal - August 2026 schedules and breakdowns",
+    "url": "https://www.dmpr.gov.za/Services/Petroleum-Resources/Fuel-Prices",
+    "used": "Official monthly BFP, price breakdown, diesel guidance, fuel schedules, history and press releases."
+  },
+  {
+    "group": "Official fuel methodology",
+    "name": "DMPR Fuel Price Structure - BFP markets and components",
+    "url": "https://www.dmpr.gov.za/Services/Petroleum-Resources/Fuel-Price-Structure",
+    "used": "Official explanation of the 50/50 reference-market baskets, daily CEF calculation, USD/ZAR conversion and landed/domestic price components."
+  },
+  {
+    "group": "Official LPG price",
+    "name": "Government Gazette - August 2026 LPG maximum retail price schedule",
+    "url": "https://www.gov.za/sites/default/files/gcis_document/202608/55131rg12030gon7669.pdf",
+    "used": "Official August 2026 maximum retail LPG prices by zone, including Zone 1A at 3344 c/kg."
+  },
+  {
+    "group": "Official",
+    "name": "South African Government fuel adjustment - 1 July 2026",
+    "url": "https://www.gov.za/news/media-statements/minister-gwede-mantashe-announces-adjustment-fuel-prices-effective-1-july",
+    "used": "Confirmed July changes, full fuel levies, 113.94c/l Slate Levy and LPG changes."
+  },
+  {
+    "group": "Official",
+    "name": "DMPR fuel prices portal",
+    "url": "https://www.dmpr.gov.za/Services/Petroleum-Resources/Fuel-Prices",
+    "used": "Official monthly schedules, price breakdowns and regulatory documents."
+  },
+  {
+    "group": "Official",
+    "name": "DMPR Basic Fuel Price Annexure A",
+    "url": "https://www.dmre.gov.za/Portals/0/Energy_Website/files/esources/pdfs/energy/liquidfuels/ANNEXURE-A-BFP-version2017.pdf",
+    "used": "Refined-product benchmark baskets, exchange-rate conversion and import-parity costs."
+  },
+  {
+    "group": "LPG benchmark",
+    "name": "Reuters - Saudi Aramco and Sonatrach July 2026 LPG prices",
+    "url": "https://www.sahmcapital.com/news/content/saudi-aramco-and-sonatrach-cut-lpg-prices-for-july-2026-07-01",
+    "used": "Confirms Saudi July propane at $580/t and butane at $600/t, plus Sonatrach regional proxy values."
+  },
+  {
+    "group": "Official benchmark methodology",
+    "name": "DMPR Fuel Price Structure - current reference markets",
+    "url": "https://www.dmpr.gov.za/Services/Petroleum-Resources/Fuel-Price-Structure",
+    "used": "Confirms petrol reference markets of 50% Mediterranean and 50% Singapore, and diesel/paraffin reference markets of 50% Mediterranean and 50% Arabian Gulf."
+  },
+  {
+    "group": "Official",
+    "name": "Self-adjusting Slate Levy Mechanism",
+    "url": "https://www.dmre.gov.za/Portals/0/Energy_Website/files/esources/pdfs/energy/liquidfuels/slate%20levy.pdf",
+    "used": "Slate trigger, cumulative-balance treatment and six-month recovery logic."
+  },
+  {
+    "group": "Cross-check",
+    "name": "TopAuto Fuel Price Predictor",
+    "url": "https://topauto.co.za/fuel-price-predictor/",
+    "used": "Independent display of CEF-based reporting-period data and projected paths."
+  },
+  {
+    "group": "Cross-check",
+    "name": "20 July CEF-based outlook report",
+    "url": "https://www.citizen.co.za/rekord/news-headlines/2026/07/20/august-fuel-price-outlook-worsens-as-expected-petrol-savings-shrink/",
+    "used": "Published 16 July snapshot for Petrol 93, Petrol 95 and both diesel grades."
+  },
+  {
+    "group": "Current price",
+    "name": "Shell South Africa price composition",
+    "url": "https://www.shell.co.za/motorists/shell-fuels/petrol-price.html",
+    "used": "Coastal and inland official price composition cross-check."
+  },
+  {
+    "group": "Current price",
+    "name": "BusinessTech July coastal price table",
+    "url": "https://businesstech.co.za/news/energy/864824/here-is-the-official-petrol-price-for-july-8/",
+    "used": "Coastal petrol, diesel, paraffin and LPG price cross-check."
+  },
+  {
+    "group": "Market",
+    "name": "MarketWatch Brent settlement - 20 July 2026",
+    "url": "https://www.marketwatch.com/story/oil-prices-surge-stock-futures-dip-as-fighting-between-u-s-and-iran-intensifies-6fb37c79",
+    "used": "Brent $89.22 settlement and shipping-risk context."
+  },
+  {
+    "group": "Market",
+    "name": "Investing.com USD/ZAR - 21 July 2026",
+    "url": "https://uk.investing.com/currencies/usd-zar-historical-data",
+    "used": "USD/ZAR 16.4978 live snapshot and recent range."
+  },
+  {
+    "group": "Market",
+    "name": "Refined-product crack-spread analysis",
+    "url": "https://www.marketwatch.com/story/why-are-gasoline-prices-rising-faster-than-oil-prices-blame-it-on-the-crack-22b454e7",
+    "used": "Evidence that refined-product prices can move faster than crude during refinery and shipping disruptions."
+  },
+  {
+    "group": "LPG official",
+    "name": "DMPR Maximum Refinery Gate Price regulations",
+    "url": "https://www.gov.za/sites/default/files/gcis_document/202005/43367rg11125gon610.pdf",
+    "used": "Saudi Contract Price definition and landed-cost components including freight, insurance, storage and stock financing."
+  },
+  {
+    "group": "LPG official",
+    "name": "DMPR petroleum pricing framework presentation",
+    "url": "https://www.dmpr.gov.za/Portals/0/Energy_Website/files/PPA-Campaigns/gauteng/Nov2023/Pricing-Framework-for-Petroleum-Products.pdf",
+    "used": "60% propane / 40% butane split and LPG price-component explanation."
+  },
+  {
+    "group": "LPG benchmark",
+    "name": "Saudi Aramco July 2026 LPG Contract Prices",
+    "url": "https://finwires.com/en/article/aramco-slashes-july-lpg-contract-prices-6910511",
+    "used": "July propane $580/t and butane $600/t versus June $760/t and $820/t."
+  },
+  {
+    "group": "LPG freight",
+    "name": "Riviera Maritime - elevated VLGC rates",
+    "url": "https://www.rivieramm.com/news-content-hub/ballast-vlgc-enters-gulf-on-short-term-fixture-at-sky-high-spot-rates-89286",
+    "used": "Freight-risk scenario and volatility rating."
+  },
+  {
+    "group": "LPG supply",
+    "name": "Argus - Africa LPG infrastructure constraints",
+    "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2757746-africa-s-lpg-growth-faces-supply-and-logistics-hurdles",
+    "used": "Local terminal, storage and inland-logistics risk context."
+  }
+]

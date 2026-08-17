@@ -1,0 +1,26 @@
+SA FUEL INTELLIGENCE - MODEL AUDIT
+Updated: 17 Aug 2026
+Region: Coastal South Africa (Zone 1A benchmark)
+
+LIQUID FUELS
+Official CEF anchor: 13 Aug 2026
+Petrol 95: +R0.73871/l indicative September adjustment
+Petrol 93: +R0.62883/l
+Diesel 500ppm: +R2.72505/l
+Diesel 50ppm: +R2.88609/l
+Illuminating paraffin: +R2.14765/l
+
+AUGUST OFFICIAL CHANGE EFFECTIVE 5 AUG
+Petrol 93/95: -R0.52/l
+Diesel 500ppm: +R1.3844/l
+Diesel 50ppm: +R1.2344/l
+Illuminating paraffin wholesale: +R1.52/l
+LPG Zone 1A: R33.44/kg current official maximum
+
+LPG
+July weighted Saudi CP: $588/t
+August weighted Saudi CP: $628/t
+Raw benchmark effect: about +R0.65/kg at R16.1606/USD
+Central September model: +R0.53/kg (not official)
+
+Final DMPR/CEF announcements override all live indications.
