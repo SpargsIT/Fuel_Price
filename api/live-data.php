@@ -431,6 +431,17 @@ foreach ($slugs as $key => $slug) {
 }
 if ($forecastUpdated > 0) {
     $data['officialCefDate'] = $latestReporting !== '' ? $latestReporting : $data['officialCefDate'];
+    // Keep the final chart label aligned with the newest accepted CEF period.
+    if ($latestReporting !== '' && isset($data['projectionPath']['dates']) && is_array($data['projectionPath']['dates'])) {
+        if (preg_match_all('~(\d{1,2})\s+([A-Za-z]+)\s+(20\d{2})~', $latestReporting, $dateMatches, PREG_SET_ORDER)) {
+            $lastMatch = $dateMatches[count($dateMatches) - 1];
+            $periodEnd = DateTimeImmutable::createFromFormat('!j F Y', $lastMatch[1] . ' ' . $lastMatch[2] . ' ' . $lastMatch[3]);
+            if ($periodEnd instanceof DateTimeImmutable) {
+                $lastDateIndex = count($data['projectionPath']['dates']) - 1;
+                if ($lastDateIndex >= 0) $data['projectionPath']['dates'][$lastDateIndex] = $periodEnd->format('j M');
+            }
+        }
+    }
     $health[] = source_health('CEF predictor by grade', $forecastUpdated >= 4, $forecastUpdated . '/5 grades refreshed; official-date guard active', 'https://topauto.co.za/fuel-price-predictor/');
 } else {
     $msg = $forecastSkippedStale > 0 ? 'Secondary values were older than the official packaged CEF anchor' : 'No valid new grade values found';
